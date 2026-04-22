@@ -1,4 +1,3 @@
-# Trazendo o Histórico da pasta correta
 from operacoes.operacoes import Historico
 
 class Conta:
@@ -7,7 +6,6 @@ class Conta:
         self.cliente = cliente
         self._saldo = 0.0 
         
-        # A Composição continua funcionando perfeitamente
         self.historico = Historico()
         
     def get_saldo(self):
